@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/silenteh/HKDFKit.svg?branch=master)](https://travis-ci.org/silenteh/HKDFKit)
+
+
 HKDFKit Swift framework for both iOS and OS X
 =======
 
