@@ -34,8 +34,6 @@ class HKDFKitTests: XCTestCase {
         
         XCTAssert(hkdf.toHexString() == OKM, "First RFC test case with SHA-256")
         
-        HKDFKit.TextSecureV2deriveKey(<#T##algorithm: HKDFKit.Hash##HKDFKit.Hash#>, seed: <#T##NSData#>, info: <#T##NSData#>, salt: <#T##NSData#>, outputSize: <#T##Int#>)
-        
     }
     
     func testSecondRFCExample() {

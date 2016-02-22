@@ -1,0 +1,4 @@
+language: objective-c
+script:
+  - xctool test -workspace HKDFKit.xcworkspace -scheme HKDFKit_IOS -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -workspace HKDFKit.xcworkspace -scheme HKDFKit_OSX -sdk macosx ONLY_ACTIVE_ARCH=NO
