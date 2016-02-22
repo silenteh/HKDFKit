@@ -1,4 +1,5 @@
 language: objective-c
+osx_image: xcode7.2
 script:
   - xctool test -workspace HKDFKit.xcworkspace -scheme HKDFKit_IOS -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
   - xctool test -workspace HKDFKit.xcworkspace -scheme HKDFKit_OSX -sdk macosx ONLY_ACTIVE_ARCH=NO
