@@ -6,7 +6,7 @@ HKDFKit Swift framework for both iOS and OS X
 
 HKDF utility in Swift for both iOS and OS X
 
-This is a porting of Frederic Jacobs JKDFKit to Swift with the addition it supports also OS X
+This is a porting of Frederic Jacobs KDFKit to Swift with the addition it supports also OS X
 
 ## Usage
 
